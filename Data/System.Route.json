@@ -4,7 +4,7 @@
       {
         "#class": "System.Route",
         "name": "raxon-org-cli-autoload",
-        "path": "raxon_org\/autoload",
+        "path": "raxon\/autoload",
         "controller": "Package:Raxon:Org:Autoload:Controller:Cli:run",
         "priority": 1001,
         "request": {
