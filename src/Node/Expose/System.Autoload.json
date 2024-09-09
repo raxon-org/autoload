@@ -1,0 +1,182 @@
+{
+    "System": {
+        "Autoload": {
+            "count": {
+                "output": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "prefix"
+                        ],
+                        "object": {
+                            "prefix": {
+                                "multiple": true,
+                                "output": [
+                                    "prefix",
+                                    "directory",
+                                    "extension"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "create": {
+                "output": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "prefix"
+                        ],
+                        "object": {
+                            "prefix": {
+                                "multiple": true,
+                                "output": [
+                                    "prefix",
+                                    "directory",
+                                    "extension"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "list": {
+                "output": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "prefix"
+                        ],
+                        "object": {
+                            "prefix": {
+                                "multiple": true,
+                                "output": [
+                                    "prefix",
+                                    "directory",
+                                    "extension"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "page": {
+                "output": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "prefix"
+                        ],
+                        "object": {
+                            "prefix": {
+                                "multiple": true,
+                                "output": [
+                                    "prefix",
+                                    "directory",
+                                    "extension"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "patch": {
+                "output": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "prefix"
+                        ],
+                        "object": {
+                            "prefix": {
+                                "multiple": true,
+                                "output": [
+                                    "prefix",
+                                    "directory",
+                                    "extension"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "put": {
+                "output": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "prefix"
+                        ],
+                        "object": {
+                            "prefix": {
+                                "multiple": true,
+                                "output": [
+                                    "prefix",
+                                    "directory",
+                                    "extension"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "read": {
+                "output": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "prefix"
+                        ],
+                        "object": {
+                            "prefix": {
+                                "multiple": true,
+                                "output": [
+                                    "prefix",
+                                    "directory",
+                                    "extension"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "record": {
+                "output": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "prefix"
+                        ],
+                        "object": {
+                            "prefix": {
+                                "multiple": true,
+                                "output": [
+                                    "prefix",
+                                    "directory",
+                                    "extension"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

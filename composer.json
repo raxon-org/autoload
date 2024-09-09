@@ -1,0 +1,15 @@
+{
+    "name" : "raxon/autoload",
+    "description" : "raxon/autoload see https://raxon.org for detailed usage",
+    "type" : "package",
+    "keywords" : ["node", "raxon", "org", "library", "framework", "autoload", "raxon.org"],
+    "homepage": "https://raxon.org",
+    "require" : {
+        "raxon_org/framework": "*"
+    },
+    "license" : "MIT",
+    "authors" : [{
+        "name" : "Remco van der Velde",
+        "email" : "development@universeorange.com"
+    }]
+}

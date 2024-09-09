@@ -1,0 +1,191 @@
+{
+  "name": "ROLE_SYSTEM",
+  "rank": 1,
+  "#class": "Account.Role",
+  "permission": [
+    {
+      "name": "System:Autoload:commit",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:import",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:record",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:record.parse",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:record.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:create",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:create.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:count",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:count.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:read",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:read.parse",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:read.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:put",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:put.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:patch",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:patch.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:page",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:page.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:property.delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:list",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:list.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:list.parse",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:rename",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:commit",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:import",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:record",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:record.parse",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:record.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:create",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:create.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:count",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:count.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:read",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:read.parse",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:read.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:put",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:put.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:patch",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:patch.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:page",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:page.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:property.delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:list",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:list.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:list.parse",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Autoload:Prefix:rename",
+      "#class": "Account.Permission"
+    }
+  ]
+}
