@@ -64,7 +64,7 @@
                 },
                 {
                     "#class": "System.Autoload.Prefix",
-                    "prefix": "Raxon\\org\\Module\\Compile",
+                    "prefix": "Raxon\\Org\\Module\\Compile",
                     "directory": "{{config('ramdisk.url')}}{{config('posix.id')}}\/Compile\/",
                     "extension": ""
                 },
