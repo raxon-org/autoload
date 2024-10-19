@@ -91,6 +91,12 @@
                     "prefix": "Plugin",
                     "directory": "{{config('project.dir.plugin')}}",
                     "extension": ""
+                },
+                {
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "Raxon\\Module",
+                    "directory": "{{config('framework.dir.module')}}",
+                    "extension": ""
                 }
             ]
         }
