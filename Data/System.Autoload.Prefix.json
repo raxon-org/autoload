@@ -97,6 +97,12 @@
                     "prefix": "Raxon\\Module",
                     "directory": "{{config('framework.dir.module')}}",
                     "extension": ""
+                },
+                {
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "Raxon\\Cli",
+                    "directory": "{{config('framework.dir.cli')}}",
+                    "extension": ""
                 }
             ]
         }
