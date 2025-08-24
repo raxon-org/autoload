@@ -1,3 +1,4 @@
 {
+    "info" : "This info",
     "setup" : "This will setup autoload configuration through raxon/node"    
 }
