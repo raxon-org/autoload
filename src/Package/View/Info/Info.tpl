@@ -8,9 +8,7 @@ Package: {{$request.package}}
 {{/if}}
 {{if(!is.empty($request.submodule))}}Submodule: {{$request.submodule|>string.uppercase.first}}
 
-{{/if}}
-{{if(!is.empty($list.command))}}
-{{$nr = 1}}Commands:
+{{/if}}{{if(!is.empty($list.command))}}{{$nr = 1}}Commands:
 {{foreach($list.command as $item)}}
 {{$key = $nr}}
 {{if($key < 10)}}
@@ -18,8 +16,7 @@ Package: {{$request.package}}
 {{/if}}[{{$key}}] {{$item.command}}
 
 {{$nr++}}
-{{/foreach}}
-{{$nr = 1}}Description:
+{{/foreach}}{{$nr = 1}}Description:
 {{foreach($list.command as $item)}}
 {{$key = $nr}}
 {{if($key < 10)}}
@@ -29,4 +26,3 @@ Package: {{$request.package}}
 {{$nr++}}
 {{/foreach}}
 {{/if}}
-
