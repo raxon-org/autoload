@@ -1,3 +1,4 @@
+{{translation.import()}}
 {{$request = request()}}
 Package: {{$request.package}}
 
