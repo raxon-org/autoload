@@ -14,5 +14,6 @@ Package: {{$request.package}}
 
 Description:
 [1] {{__('info')}}
-[1] {{__('setup')}}
+
+[2] {{__('setup')}}
 
