@@ -8,14 +8,29 @@ Package: {{$request.package}}
 {{/if}}
 {{if(!is.empty($request.submodule))}}Submodule: {{$request.submodule|>string.uppercase.first}}
 
-{{/if}}Commands:
-{{dd($list)}}
-[01] {{binary()}} {{$request.package|>string.lowercase}}
+{{/if}}
+{{if(!is.empty($list.command))}}
+{{$nr = 1}}
+Commands:
+{{foreach($list.command as $item)}}
+{{$key = $nr}}
+{{if($key < 10)}}
+{{$key = '0' + $key}}
+{{/if}}
+[{{$key}}] {{$item.command}}
 
-[02] {{binary()}} {{$request.package|>string.lowercase}} setup
-
+{{$nr++}}
+{{/foreach}}
+{{$nr = 1}}
 Description:
-[01] {{__('info')}}
+{{foreach($list.command as $item)}}
+{{$key = $nr}}
+{{if($key < 10)}}
+{{$key = '0' + $key}}
+{{/if}}
+[{{$key}}] {{$item.description}}
 
-[02] {{__('setup')}}
+{{$nr++}}
+{{/foreach}}
+{{/if}}
 
