@@ -16,7 +16,8 @@ Package: {{$request.package}}
 {{/if}}[{{$key}}] {{$item.command}}
 
 {{$nr++}}
-{{/foreach}}{{$nr = 1}}Description:
+{{/foreach}}{{$nr = 1}}
+Description:
 {{foreach($list.command as $item)}}
 {{$key = $nr}}
 {{if($key < 10)}}
