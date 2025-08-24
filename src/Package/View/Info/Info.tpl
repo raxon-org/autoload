@@ -9,9 +9,7 @@ Module: {{$request.module|>string.uppercase.first}}
 {{if(!is.empty($request.submodule))}}
 Submodule: {{$request.submodule|>string.uppercase.first}}
 
-{{/if}}
-
-Commands:
+{{/if}}Commands:
 [1] {{binary()}} {{$request.package|>string.lowercase}} setup
 
 Description:
