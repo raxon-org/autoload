@@ -11,7 +11,7 @@ Submodule: {{$request.submodule|>string.uppercase.first}}
 {{/if}}
 
 Commands:
-[1] {{binary()}} {{$package}} setup
+[1] {{binary()}} {{$reuest.package|>string.lowercase}} setup
 
 Description:
 [1] {{__('setup')}}
