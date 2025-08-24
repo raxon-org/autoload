@@ -1,6 +1,6 @@
 {{translation.import()}}
 {{$request = request()}}
-{{$list = data.read($controller.dir.data + 'Command.json')}}
+{{$list = data.read(config('controller.dir.data') + 'Command.json')}}
 Package: {{$request.package}}
 
 {{if(!is.empty($request.module))}}Module: {{$request.module|>string.uppercase.first}}
