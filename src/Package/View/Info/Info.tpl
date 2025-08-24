@@ -9,3 +9,9 @@ Module: {{$request.module|>string.uppercase.first}}
 Submodule: {{$request.submodule|>string.uppercase.first}}
 
 {{/if}}
+
+Commands:
+[1] {{binary()}} {{$package}} setup
+
+Description:
+[1] {{__('setup')}}
