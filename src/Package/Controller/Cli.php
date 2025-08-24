@@ -22,8 +22,7 @@ class Cli extends Controller {
     const DIR = __DIR__ . '/';
     const MODULE_INFO = 'Info';
     const INFO = [
-        '{{binary()}} raxon/autoload                | Autoload options',
-        '{{binary()}} raxon/autoload setup          | Autoload setup',
+        '{{binary()}} raxon/autoload                | Autoload options',        
     ];
 
     /**
