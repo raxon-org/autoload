@@ -16,3 +16,4 @@ Commands:
 
 Description:
 [1] {{__('setup')}}
+
