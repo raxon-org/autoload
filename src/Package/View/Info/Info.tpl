@@ -8,12 +8,12 @@ Package: {{$request.package}}
 {{if(!is.empty($request.submodule))}}Submodule: {{$request.submodule|>string.uppercase.first}}
 
 {{/if}}Commands:
-[1] {{binary()}} {{$request.package|>string.lowercase}}
+[01] {{binary()}} {{$request.package|>string.lowercase}}
 
-[2] {{binary()}} {{$request.package|>string.lowercase}} setup
+[02] {{binary()}} {{$request.package|>string.lowercase}} setup
 
 Description:
-[1] {{__('info')}}
+[01] {{__('info')}}
 
-[2] {{__('setup')}}
+[02] {{__('setup')}}
 
