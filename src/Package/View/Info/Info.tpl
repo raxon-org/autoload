@@ -9,6 +9,7 @@ Package: {{$request.package}}
 
 {{/if}}Commands:
 [1] {{binary()}} {{$request.package|>string.lowercase}}
+
 [2] {{binary()}} {{$request.package|>string.lowercase}} setup
 
 Description:
