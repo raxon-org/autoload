@@ -16,8 +16,7 @@ Commands:
 {{$key = $nr}}
 {{if($key < 10)}}
 {{$key = '0' + $key}}
-{{/if}}
-[{{$key}}] {{$item.command}}
+{{/if}}[{{$key}}] {{$item.command}}
 
 {{$nr++}}
 {{/foreach}}
@@ -27,8 +26,7 @@ Description:
 {{$key = $nr}}
 {{if($key < 10)}}
 {{$key = '0' + $key}}
-{{/if}}
-[{{$key}}] {{$item.description}}
+{{/if}}[{{$key}}] {{$item.description}}
 
 {{$nr++}}
 {{/foreach}}
