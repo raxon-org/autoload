@@ -103,12 +103,6 @@
                     "prefix": "Raxon\\Cli",
                     "directory": "{{config('framework.dir.cli')}}",
                     "extension": ""
-                },
-                {
-                  "#class": "System.Autoload.Prefix",
-                  "prefix": "Codewithkyrian\\Whisper",
-                  "directory": "{{config('project.dir.vendor') + 'codewithkyrian/whisper.php/src'}}",
-                  "extension": ""
                 }
             ]
         }
